@@ -2,9 +2,13 @@
 
 namespace AspNetMvcBlog.Controllers
 {
-	public class BloController : Controller
+	public class BlogController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult Search()
+		{
+			return View();
+		}
+		public IActionResult Detail()
 		{
 			return View();
 		}

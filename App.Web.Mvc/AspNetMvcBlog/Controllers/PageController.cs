@@ -4,7 +4,7 @@ namespace AspNetMvcBlog.Controllers
 {
 	public class PageController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult Detail()
 		{
 			return View();
 		}

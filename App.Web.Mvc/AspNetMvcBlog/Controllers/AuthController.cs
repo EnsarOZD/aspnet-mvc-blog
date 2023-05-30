@@ -12,7 +12,7 @@ namespace AspNetMvcBlog.Controllers
 		{
 			return View();
 		}
-		public IActionResult ForotPassword()
+		public IActionResult ForgotPassword()
 		{
 			return View();
 		}
