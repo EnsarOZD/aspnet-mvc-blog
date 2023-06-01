@@ -2,7 +2,7 @@
 
 namespace AspNetMvcBlog.Controllers.Admin
 {
-    public class HomeController : Controller
+    public class AdminHomeController : AdminBaseController
     {
         public IActionResult Index()
         {

@@ -2,7 +2,7 @@
 
 namespace AspNetMvcBlog.Controllers.Admin
 {
-    public class SettingController : Controller
+    public class AdminSettingController : AdminBaseController
     {
         public IActionResult Index()
         {
