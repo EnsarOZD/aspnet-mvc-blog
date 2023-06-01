@@ -8,7 +8,7 @@ namespace AspNetMvcBlog.Controllers
 		{
 			return View();
 		}
-		public IActionResult Login()
+		public IActionResult Login(string redirectUrl)
 		{
 			return View();
 		}
